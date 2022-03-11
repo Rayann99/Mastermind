@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    position: absolute; top: 20%; left: 45%;
+    z-index: 1;
+
+}
+#formulaire {
+    position: absolute; top: 35%;left: 30%;
+    z-index: 1;
+}
+
+#resultat {
+    position: absolute; top: 45%;left: 47%;
+}
+
+#timeur{
+
+    height: 50px;
+}
+
+#carre{
+
+    height: 400px;
+    width: 1000px;
+    position: absolute; top: 100px; left: 300px; bottom: 100px;
+    background: #CDD2D2 ;
+    z-index: 0;
+    border-style: outset;
+    border-color: yellow;
+}
+body{
+    background-color: #7F8282;
+}
